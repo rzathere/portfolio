@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title></title>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500;600;800&display=swap" rel="stylesheet">
+  <link href='https://css.gg/menu-left-alt.css' rel='stylesheet'>
+  <link href='https://css.gg/close.css' rel='stylesheet'>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body data-spy="scroll" data-target=".navbar">
+  <section id="navigation">
+
+    <nav class="navbar navbar-expand-md fixed-top navbar-dark container-nav">
+      <div class="container-fluid">
+        <div>
+          <a class="logo-lnk" href="#">
+            <img src="images/logo.png" alt="">
+            <span>Lalit<br>Suthar</span></a>
+        </div>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <!-- <span class="close"><i class="gg-close"></i></span> -->
+          <i class="gg-menu-left-alt"></i></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-md-0">
+            <li id="home-menu" class="nav-item menu-item">
+              <a class="nav-link active" aria-current="page">HOME</a>
+            </li>
+            <li id="experience-menu" class="nav-item menu-item">
+              <a class="nav-link">EXPERIENCE</a>
+            </li>
+            <li id="skills-menu" class="nav-item menu-item">
+              <a class="nav-link">SKILLS</a>
+            </li>
+            <li id="education-menu" class="nav-item menu-item">
+              <a class="nav-link">EDUCATION</a>
+            </li>
+            <li id="contact-menu" class="nav-item menu-item">
+              <a class="nav-link">CONTACT</a>
+            </li>
+          </ul>
+          <a href="doc/Resume.pdf" download="lalit-Resume" target="_blank"><button type="button" class="btn btn-outline-primary download-button"><i class="fas fa-download"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;DOWNLOAD CV </button></a>
+        </div>
+      </div>
+    </nav>
+  </section>
+
+  <section id="home">
+    <div class="container-fluid container-home">
+      <div class="row">
+        <div class="col-md-5 container-image">
+          <img src="images/photo.jpg" alt="">
+        </div>
+
+        <div class="col-md-7 container-intro">
+          <div class="title">
+            <h1>Lalit<br />Suthar</h1>
+          </div>
+
+          <div class="about-me">
+            <div class="designation">
+              <h3>SOFTWARE ENGINEER</h3>
+            </div>
+            <div class="summary">
+              <p>Hello! I am a student of Lovely Professional University currently I'm pursing Computer Science Engineer(B.TECH) from Punjab, India. I have rich experience in web site design and building, also I am good at backend development and learn Springboot java<br />Feel free to Drop a Hi if you want to know more.
+            </div>
+            <div class="contact-me">
+              <button id="contact-me" type="button" class="btn btn-outline-primary contact-button"><i class="fas fa-phone-alt"></i></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CONTACT ME</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <hr>
+
+  <section id="experience">
+    <div class="section-title">
+      <h2>Intern and Project<br><span class="section-subtitle">Done with</span></h2>
+    </div>
+    <div class="container experience-content">
+      <div class="row mx-auto my-auto justify-content-center">
+        <div id="recipeCarousel" class="carousel slide" data-bs-ride="carousel">
+          <!-- data-bs-interval="false" -->
+          <div class="carousel-inner" role="listbox">
+            <div class="carousel-item active">
+              <div class="col-md-4">
+                <div class="experience-item">
+                  <div class="experience-top">
+                    <h6>2019-2019</h6>
+                    <div class="company-name">AL digital Assistant<span style="font-size: 0.7rem;"><br>Punjab, India</span></div>
+                  </div>
+                  <div class="experience-bottom">
+                    <p>In our Project, we develop a Digital Assistant based on Artificial Intelligence named as "Sarah" primarily for desktop. We first need to understand what a Digital Assistant is. A Digital assistant is an advanced computer program that simulates a conversation with the people who use it, typically
+
+                      over the internet tech use Python,C/C++,Django,
+                      AJAX,Visual Studio.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="col-md-4">
+                <div class="experience-item">
+                  <div class="experience-top">
+                    <h6>2022-2022</h6>
+                    <div class="company-name">ANALYSIS OF AIRLINES DATA<span style="font-size: 0.7rem;"><br>Noida, India</span></div>
+                  </div>
+                  <div class="experience-bottom">
+                    <p>This data set contains information related to explore detailed analysis on airline data sets such as listing Airliness operating in the India, list of
+
+                      airlines having in the world. It contains airlineid Airlinesid,name,cityid,country, Source Airlines ID etc. This POC contains the Hive and Pig queries to manipulate and analyze the data.
+                      
+                      The data set contains approx. 59k entries we will be using following Technologies and Languages:
+                      
+                      Hive
+                      
+                      sqoop
+                      
+                      pig
+                      
+                      yarn
+                      
+                      linux.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="col-md-4">
+                <div class="experience-item">
+                  <div class="experience-top">
+                    <h6>2022-2022</h6>
+                    <div class="company-name">Summer Intern<span style="font-size: 0.7rem;"><br>Noida, India</span></div>
+                  </div>
+                  <div class="experience-bottom">
+                    <p>Allsoft IBM certified Big data Technical intern
+
+                      Learn about hadoop architecture and practical implementation hive,pig,Hbase,bigsql,sqoop.etc.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="col-md-4">
+                <div class="experience-item">
+                  <div class="experience-top">
+                    <h6>2023-2023</h6>
+                    <div class="company-name">food review web application<span style="font-size: 0.7rem;"><br>Pune & Gurgaon, India</span></div>
+                  </div>
+                  <div class="experience-bottom">
+                    <p> to help users choose a restaurant to visit by going through the 
+                      comments and reviews posted by other users. The user can also comment, review of a restaurant.
+                      and their food quality and taste 
+                      
+                      Tech Stack - HTML , CSS (BOOTSTRAP) , JS (Optional) 
+                      Must have Navbar and website name and deployed also 
+                      from github or any other platform 
+                      Add food review with date, category, restaurant name, 
+                      location stars etc and the text content,
+                      Users can update, delete their previous posts.
+                      Home page should display those posts</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="carousel-controls">
+      <button class="carousel-control-prev circular-icon" type="button" data-bs-target="#recipeCarousel" data-bs-slide="prev">
+        <span class="" aria-hidden="true"><i class="fas fa-chevron-left"></i></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next circular-icon" type="button" data-bs-target="#recipeCarousel" data-bs-slide="next">
+        <span class=""><i class="fas fa-chevron-right"></i></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </section>
+
+  <hr>
+
+  <section id="skills">
+    <div class="section-title">
+      <h2>Coding Skills<br><span class="section-subtitle">DEVELOPING ON</span></h2>
+    </div>
+    <div class="container-fluid skills-content">
+      <div class="row">
+        <div class="col-lg-6">
+          <div class="skill-box">
+            <div class="skill-title">
+              <h6>JAVA</h6>
+              <span>80%</span>
+            </div>
+            <div class="skill-percentage">
+              <div class="JAVA">
+              </div>
+            </div>
+          </div>
+          <div class="skill-box">
+            <div class="skill-title">
+              <h6>SPRING</h6>
+              <span>80%</span>
+            </div>
+            <div class="skill-percentage">
+              <div class="SPRING">
+              </div>
+            </div>
+          </div>
+          <div class="skill-box">
+            <div class="skill-title">
+              <h6>SPRING BOOT</h6>
+              <span>90%</span>
+            </div>
+            <div class="skill-percentage">
+              <div class="SPRING-BOOT">
+              </div>
+            </div>
+          </div>
+
+          <div class="skill-box">
+            <div class="skill-title">
+              <h6>HIBERNATE</h6>
+              <span>50%</span>
+            </div>
+            <div class="skill-percentage">
+              <div class="HIBERNATE">
+              </div>
+            </div>
+          </div>
+
+          <div class="skill-box">
+          <div class="skill-box">
+            <div class="skill-title">
+              <h6>HTML</h6>
+              <span>60%</span>
+            </div>
+            <div class="skill-percentage">
+              <div class="HTML">
+              </div>
+            </div>
+          </div>
+
+          <div class="skill-box">
+            <div class="skill-title">
+              <h6>CSS</h6>
+              <span>50%</span>
+            </div>
+            <div class="skill-percentage">
+              <div class="CSS">
+              </div>
+            </div>
+          </div>
+
+          <div class="skill-box">
+            <div class="skill-title">
+              <h6>BOOTSTRAP</h6>
+              <span>40%</span>
+            </div>
+            <div class="skill-percentage">
+              <div class="BOOTSTRAP">
+              </div>
+            </div>
+          </div>
+
+          <div class="skill-box">
+            <div class="skill-title">
+              <h6>JAVASCRIPT</h6>
+              <span>30%</span>
+            </div>
+            <div class="skill-percentage">
+              <div class="JAVASCRIPT">
+              </div>
+            </div>
+          </div>
+
+          <div class="skill-box">
+            <div class="skill-title">
+              <h6>ANDROID APP DEVELOPMENT</h6>
+              <span>70%</span>
+            </div>
+            <div class="skill-percentage">
+              <div class="ANDROID">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <hr>
+
+  <section id="education">
+    <div class="section-title">
+      <h2>Education<br><span class="section-subtitle">STUDIED AT</span></h2>
+    </div>
+    <div class="container experience-content">
+      <div class="row mx-auto my-auto justify-content-center">
+        <div id="recipeCarousel" class="carousel slide" data-bs-ride="carousel">
+          <!-- data-bs-interval="false" -->
+          <div class="carousel-inner" role="listbox">
+            <div class="carousel-item active">
+              <div class="col-md-4">
+                <div class="experience-item">
+                  <div class="experience-top">
+                    <h6>2021-2024</h6>
+                    <div class="company-name">B.Tech(CSE)<span style="font-size: 0.7rem;"><br>Lovely Professional<br>University, Punjab, IN</span></div>
+                  </div>
+                  <div class="experience-bottom">
+                    <p>I pursing my graduation in Computer Science Engineering with a CGPA of 7.62</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="col-md-4">
+                <div class="experience-item">
+                  <div class="experience-top">
+                    <h6>2019-2021</h6>
+                    <div class="company-name">Diploma.CSE <span style="font-size: 0.7rem;"><br>Lovely Professional<br>University, Punjab, IN</span></div>
+                  </div>
+                  <div class="experience-bottom">
+                    <p>I had Science as the major subject in my 10th class and secured an aggregate percentage of 8.7%.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="col-md-4">
+                <div class="experience-item">
+                  <div class="experience-top">
+                    <h6>  2017-2018</h6>
+                    <div class="company-name">Intermediate<span style="font-size: 0.7rem;"><br>B.N.N <br> junior college,Thane, IN</span></div>
+                  </div>
+                  <div class="experience-bottom">
+                    <p>I had PCM in my intermediate class as the major subjects and secured an aggregate percentage of 58.4%.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="col-md-4">
+                <div class="experience-item">
+                  <div class="experience-top">
+                    <h6>2008-2009</h6>
+                    <div class="company-name">Matric<span style="font-size: 0.7rem;"><br>Seth Jugilal<br>Podar, Thane, IN</span></div>
+                  </div>
+                  <div class="experience-bottom">
+                    <p>I had Science as the major subject in my 10th class and secured an aggregate percentage of 70%.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="carousel-controls">
+      <button class="carousel-control-prev circular-icon" type="button" data-bs-target="#recipeCarousel" data-bs-slide="prev">
+        <span class="" aria-hidden="true"><i class="fas fa-chevron-left"></i></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next circular-icon" type="button" data-bs-target="#recipeCarousel" data-bs-slide="next">
+        <span class=""><i class="fas fa-chevron-right"></i></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </section>
+
+  <hr>
+
+  <section id="contact">
+    <div class="section-title">
+      <h2>Contact<br><span class="section-subtitle">LET'S Talk</span></h2>
+    </div>
+    <div class="contact-container">
+      <div class="contact-box">
+        <ul>
+          <li><span>NAME:</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Lalit Suthar</li>
+          <li><span>DOB:</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;08-may-1999</li>
+          <li><span>RESIDENCE:</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;India</li>
+          <li><span>ADDRESS:</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Thane, Maharastra</li>
+          <li><span>PHONE:</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;+91-7420994651</li>
+          <li><span>EMAIL:</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;lalit14331@gmail.com</li>
+        </ul>
+      </div>
+    </div>
+    <div class="social-container">
+      <div class="social-box">
+        <a href="https://www.linkedin.com/in/lalitkumar742099/"><button class="social-icon"><i class="fab fa-linkedin-in"></i></button></a>
+        <a href="https://www.facebook.com/LHckr"><button class="social-icon"><i class="fab fa-facebook-f"></i></button></a>
+        <a href="https://www.instagram.com/lalitsutharr"><button class="social-icon"><i class="fab fa-instagram"></i></button></a>
+        <a href="https://www.snapchat.com/lalitsuthar28"><button class="social-icon"><i class="fab fa-snapchat"></i></button></a>
+        <a href="https://www.twitter.com/lalittttttt"><button class="social-icon"><i class="fab fa-twitter"></i></button></a>
+      </div>
+    </div>
+  </section>
+
+  <hr>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+  <script src="https://kit.fontawesome.com/057fe78504.js" crossorigin="anonymous"></script>
+  <script src="js/script.js"></script>
+</body>
+
+</html>
